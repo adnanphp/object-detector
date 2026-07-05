@@ -1,0 +1,51 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Models
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.pid
+*.pid.lock
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Gradio
+gradio_cached_examples/
+EOF
